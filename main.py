@@ -28,7 +28,7 @@ class Cafe(db.Model):
 
     # Optional: this will allow each book object to be identified by its title when printed.
     def __repr__(self):
-        return f'<Movie {self.title}>'
+        return f'<Cafe {self.title}>'
 
     def to_dict(self):
         # Method 1.
